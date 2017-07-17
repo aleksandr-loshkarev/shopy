@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container::after,
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin: 0 0 15px;
+}
+
+.contact-icon{
+    margin-right: 10px;
+}
+
+.logo{
+    margin-right: 85px;
+}
+
+.bar-pannier{
+    margin: 0 -15px;
+    padding: 0;
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.bar-pannier li{
+    padding: 0 15px;
+}
+
+.bar-pannier a{
+    display: inline-block;
+    vertical-align:top;
+}
+
+.icon-pannier{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/sprite-bar.png);
+    position: relative;
+}
+
+.icon-pannier.icon-bar-search{
+    background-position: 0 0;
+}
+
+.icon-pannier.icon-bar-search:hover{
+    background-position: 0 21px;
+}
+
+.icon-pannier.icon-bar-profile{
+    width: 22px;
+    height: 21px;
+    background-position: -18px 0;
+}
+
+.icon-pannier.icon-bar-profile:hover{
+    background-position: -18px 21px;
+}
+
+.icon-pannier.icon-bar-cart{
+    width: 24px;
+    height: 19px;
+    background-position: -40px 0;
+}
+
+.icon-pannier.icon-bar-cart:before{
+    content: '5';
+    display: inline-block;
+    vertical-align:top;
+    position: relative;
+    top: -19px;
+    width: 18px;
+    height: 18px;
+    background-color: #34404b;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+.icon-pannier.icon-bar-cart:hover{
+    background-position: -40px 21px;
+}
+
+@media only screen and (max-width: 768px){
+    .logo{
+        margin-right: 20px;
+    }
+}

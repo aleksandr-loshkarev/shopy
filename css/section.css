@@ -1,0 +1,94 @@
+.section-header {
+	padding: 25px 0 5px;
+	border-bottom: 1px solid #e6e8eb;
+}
+.section-body {
+	padding: 40px 0;
+}
+
+.contact-list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-box{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 0 -10px;
+}
+
+.contact-email,
+.contact-phone{
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.social-box{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.section-navigation{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-panel{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.section-bar{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+	.section-body{
+		padding: 10px 0;
+	}
+
+	.section-panel{
+		-webkit-flex-direction: row-reverse;
+		-moz-flex-direction: row-reverse;
+		-ms-flex-direction: row-reverse;
+		-o-flex-direction: row-reverse;
+		flex-direction: row-reverse;
+	}
+
+	.navbar{
+		margin-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.section-header{
+		padding-top: 10px;
+	}
+
+	.contact-box{
+		flex-direction: column;
+	}
+}
