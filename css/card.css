@@ -83,7 +83,6 @@
 }
 
 .card-product .card-hover .card-image{
-	max-width: 50%;
 	height: 90px;
 }
 
@@ -170,7 +169,7 @@
 }
 
 
-.card-product .card-hover .icon-product{
+.icon-product{
 	display: inline-block;
     width: 19px;
     height: 17px;
@@ -178,32 +177,31 @@
     position: relative;
 }
 
-.card-product .card-hover .icon-planet{
+.icon-planet{
 	background-position: 0 -4px;
 }
 
-.card-product .card-hover .icon-planet:hover{
+.icon-planet:hover{
 	background-position: 0 -26px;
 }
 
-.card-product .card-hover .icon-cart{
+.icon-cart{
 	width: 22px;
 	height: 21px;
 	background-position: -20px 0;
 }
 
-.card-product .card-hover .icon-cart:hover{
+.icon-cart:hover{
 	background-position: -20px -22px;
 }
 
-
-.card-product .card-hover .icon-like{
+.icon-like{
 	width: 19px;
 	height: 16px;
 	background-position: -43px -4px;
 }
 
-.card-product .card-hover .icon-like:hover{
+.icon-like:hover{
 	background-position: -43px -26px;
 }
 

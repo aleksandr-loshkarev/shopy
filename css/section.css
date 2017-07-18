@@ -79,6 +79,46 @@
 	padding-top: 66px;
 }
 
+.section-sale-banner{
+	padding-top: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.section-sale{
+	margin-bottom: 15px;
+    display: inline-block;
+    vertical-align:top;
+    width: 670px;
+}
+
+.section-banner{
+	margin-bottom: 15px;
+	display: inline-block;
+	vertical-align:top;
+	width: 470px;
+}
+
+@media only screen and (max-width: 1024px){
+	.section-sale-banner{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 @media only screen and (max-width: 768px){
 	.section-header{
 		display: none;
@@ -106,6 +146,26 @@
 
 	.section-arrivals .section-body{
 		padding: 15px 0 0;
+	}
+
+	.section-sale{
+		display: block;
+		width: 100%;
+	}
+
+	.sale-items{
+		padding-left: 0;
+		padding-right: 0;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.section-banner{
+		display: block;
 	}
 }
 
