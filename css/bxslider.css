@@ -12,6 +12,7 @@
 }
 
 .bxslider-image{
+	font-size: 0;
 }
 
 .bxslider-image img{
@@ -58,11 +59,6 @@
 	font-weight: 600;
 }
 
-.bxslider-content p{
-	font-size: 16px;
-	color: #495662;
-}
-
 .bxslider-price-cart{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -95,11 +91,30 @@
 	height: 0;
 }
 
-.bx-controls-direction{
+.bx-controls{
 	display: none;
 }
 
+.page-list{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+
 .bx-pager{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+
+.bx-pager > ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -110,6 +125,27 @@
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
+}
+
+.bx-pager > ul > li{
+	margin: 5px 0;
+}
+
+.bx-pager > ul > li > a{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 10px;
+	height: 17px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.bx-pager .active{
+	height: 35px;
+	background-color: #ff5912;
 }
 
 .bx-controls{

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
 }
 
 html {
@@ -36,8 +37,17 @@ img {
     margin-right: auto;
 }
 
+h2{
+    margin: 0 0 18px;
+    font-size: 36px;
+    color: #34404b;
+    text-transform: uppercase;
+}
+
 p{
     margin: 0 0 15px;
+    font-size: 16px;
+    color: #495662;
 }
 
 .contact-icon{
@@ -117,6 +127,37 @@ p{
 
 .icon-pannier.icon-bar-cart:hover{
     background-position: -40px 21px;
+}
+
+.title-light{
+    color: #ff5912;
+}
+
+.product-list-more{
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+a.product-more{
+    padding: 15px 0;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.product-more:hover{
+    opacity: .65;
+}
+
+.open-more{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+    width: 8px;
+    height: 8px;
+    background-color: #ff5912;
+    border-radius: 4px;
 }
 
 @media only screen and (max-width: 768px){
