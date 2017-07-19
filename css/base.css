@@ -281,6 +281,42 @@ a.product-more:hover{
     font-size: 22px;
 }
 
+.news-subscription{
+    padding: 30px 40px 30px 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.news-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.news-title{
+    margin-right: 25px;
+}
+
+.news-title h3{
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5912;
+    text-transform: uppercase;
+}
+
+.news-description p{
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.newsletter-form{
+}
+
 @media only screen and (max-width: 768px){
     .logo{
         margin-right: 20px;
@@ -291,7 +327,29 @@ a.product-more:hover{
     }
 
     .sale-center{
-    border-right: none;
-    padding-right: 0;
-}
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .news-subscription{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-left{
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .news-title{
+        margin: 0;
+    }
+
+    .news-description{
+        text-align: center;
+    }
 }

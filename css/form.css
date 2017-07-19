@@ -8,3 +8,41 @@
 textarea {
 	resize: vertical;
 }
+
+/*form-subscription*/
+
+fieldset{
+  padding: 0;
+  border: none;
+}
+
+.form-group{
+  margin-right: 15px;
+  display: inline-block;
+  border: none;
+}
+
+.form-email{
+  padding: 15px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-style: italic;
+  color: #7c8791;
+  border: none;
+}
+
+.form-group-button{
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px){
+  .form-group{
+    margin-right: 0;
+    display: block;
+  }
+
+  .form-group-button{
+    display: block;
+  }
+
+}

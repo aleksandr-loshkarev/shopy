@@ -2,6 +2,22 @@
 	display: inline-flex;
 }
 
-.button:hover {}
-.button:focus {}
 .button.is-active {}
+
+
+/*form-group-button*/
+
+.button{
+  padding: 15px;
+  font-size: 14px;
+  background-color: #ff5912;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+	background-color: rgba(255, 89, 18, .75);
+}
+
+.button:focus {}

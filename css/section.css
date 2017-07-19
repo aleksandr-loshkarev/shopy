@@ -1,7 +1,11 @@
 .section-header {
 	padding: 25px 0 5px;
-	border-bottom: 1px solid #e6e8eb;
 }
+
+.header-decor{
+	border-bottom: 1px solid #e6e8eb;	
+}
+
 .section-body {
 	padding: 40px 0;
 }
@@ -67,7 +71,11 @@
 
 .section-arrivals .section-header{
 	padding: 95px 0 0;
-	border: none;
+}
+
+.section-best{
+	padding-top: 48px;
+	padding-bottom: 80px;
 }
 
 .section-title{
@@ -107,6 +115,11 @@
 	vertical-align:top;
 	width: 470px;
 }
+
+.section-body-sale{
+	padding-top: 60px;
+}
+
 
 @media only screen and (max-width: 1024px){
 	.section-sale-banner{
