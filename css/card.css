@@ -6,14 +6,20 @@
 
 .card-product-list{
 	margin: 0 -15px;
-	margin-bottom: 65px;
+	margin-bottom: 50px;
 	display: flex;
-	justify-content: center;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .card-item{
 	max-width: 25%;
-	margin: 0 15px 15px;
+	margin: 0 15px 30px;
 }
 
 .card-product{
@@ -320,9 +326,6 @@
 }
 
 @media only screen and (max-width: 900px){
-	.card-product-list{
-		flex-wrap: wrap;
-	}
 
 	.card-item {
     	max-width: 50%;
@@ -337,6 +340,13 @@
 
 	.card-best-sale-item{
 		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 645px){
+
+	.article-box .card-item{
+		max-width: 50%;
 	}
 }
 

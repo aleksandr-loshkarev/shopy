@@ -1,0 +1,45 @@
+.sidebar{
+	max-width: 23.076923%;
+	margin-right: 2.564102%;
+}
+
+.sidebar-light{
+	padding: 40px;
+	background-color: #fff;
+}
+
+.sidebar-box{
+	margin-bottom: 30px;
+}
+
+.sidebar-title{
+	padding-bottom: 22px;
+}
+
+.sidebar-title h2{
+	font-size: 18px;
+	color: #ff5912;
+	text-transform: none;
+}
+
+.categoty-list{
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.categoty-list li{
+	margin-bottom: 35px;
+}
+
+.categoty-list li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #34404b;
+	text-decoration: none;
+}
+
+.categoty-list li a:hover{
+	color: #ff5912;
+}

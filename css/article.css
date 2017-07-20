@@ -1,0 +1,33 @@
+.article-box .card-product-list{
+	justify-content: flex-start;
+}
+
+.article-box .card-item{
+	max-width: 33.33%;
+}
+
+@media only screen and (max-width: 1024px){
+	.article-box .card-product-list{
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.sidebar{
+		max-width: 100%;
+		margin-right: 0;
+		display: block;
+		text-align: center;
+	}
+
+	.sidebar-box{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 645px){
+
+	.article-box .card-item{
+		max-width: 50%;
+	}
+}

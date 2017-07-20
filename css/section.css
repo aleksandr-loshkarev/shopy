@@ -128,6 +128,24 @@
 	margin-bottom: 60px;
 }
 
+.section-wrapper{
+	margin-bottom: 70px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.section-article{
+	max-width: 74.358974%;
+}
+
 @media only screen and (max-width: 1024px){
 	.section-sale-banner{
 		-webkit-flex-direction: column;
@@ -156,8 +174,8 @@
 		flex-direction: row-reverse;
 	}
 
-	.navbar{
-		margin-right: 30px;
+	.section-navigation{
+		position: relative;
 	}
 
 	.section-arrivals .section-header{
@@ -186,6 +204,18 @@
 
 	.section-banner{
 		display: block;
+	}
+
+	.section-wrapper{
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		-o-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.section-article{
+		max-width: 100%;
 	}
 }
 
