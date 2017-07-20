@@ -282,7 +282,7 @@ a.product-more:hover{
 }
 
 .news-subscription{
-    padding: 30px 40px 30px 55px;
+    padding: 35px 39px 20px 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -309,12 +309,71 @@ a.product-more:hover{
 }
 
 .news-description p{
-    margin: 0;
     font-size: 14px;
     font-style: italic;
 }
 
-.newsletter-form{
+.footer{
+    padding: 60px 0 44px;
+    background-color: #fff;
+}
+
+.footer-item{
+    margin-bottom: 15px;
+}
+
+.footer-items{
+    padding-top: 30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    padding-bottom: 12px;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #28313b;
+}
+
+.footer-payment{
+    padding-top: 5px;
+}
+
+.footer-title h4{
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #ff5912;
+}
+
+.footer-visual{
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    list-style: none;
+}
+
+.footer-visual li{
+    margin-right: 10px;
 }
 
 @media only screen and (max-width: 768px){
@@ -352,4 +411,41 @@ a.product-more:hover{
     .news-description{
         text-align: center;
     }
+
+    .footer{
+        padding: 0;
+    }
+
+    .footer-items{
+        -webkit-flex-direction: column-reverse;
+        -moz-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        -o-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .footer-logo-copiryght,
+    .footer-payment{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .add-nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
 }

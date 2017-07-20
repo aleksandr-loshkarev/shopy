@@ -8,7 +8,9 @@
 /*form-group-button*/
 
 .button{
-  padding: 15px;
+  padding: 16px 28px 19px 30px;
+  display: inline-block;
+  vertical-align: middle;
   font-size: 14px;
   background-color: #ff5912;
   color: #fff;

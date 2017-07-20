@@ -120,6 +120,13 @@
 	padding-top: 60px;
 }
 
+.section-subscription{
+	padding-bottom: 62px;
+}
+
+.news-subscription-box{
+	margin-bottom: 60px;
+}
 
 @media only screen and (max-width: 1024px){
 	.section-sale-banner{
