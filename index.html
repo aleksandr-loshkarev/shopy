@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 ">
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/fontello.css">
-	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"></head>
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+</head>
+
 <body>
 	<div class="wrapper">
 		<div class="section">
@@ -17,15 +21,13 @@
 							<div class="contact-email">
 								<p>
 									<span class="contact-icon">
-										<img src="images/contact-email.png" alt="placeholder+image"></span>
-									info@shopy.com
+										<img src="images/contact-email.png" alt="placeholder+image"></span> info@shopy.com
 								</p>
 							</div>
 							<div class="contact-phone">
 								<p>
 									<span class="contact-icon">
-										<img src="images/contact-phone.png" alt="placeholder+image"></span>
-									996 - 5553 - 453
+										<img src="images/contact-phone.png" alt="placeholder+image"></span> 996 - 5553 - 453
 								</p>
 							</div>
 						</div>
@@ -116,8 +118,8 @@
 		<main class="main">
 			<div class="section">
 				<div class="section-box">
-					<ul class="bxslider">
-						<li>
+					<div class="slider-dox">
+						<div>
 							<div class="bxslider-box">
 								<div class="bxslider-body">
 									<div class="bxslider-image">
@@ -154,8 +156,8 @@
 									</div>
 								</div>
 							</div>
-						</li>
-						<li>
+						</div>
+						<div>
 							<div class="bxslider-box">
 								<div class="bxslider-body">
 									<div class="bxslider-image">
@@ -192,8 +194,8 @@
 									</div>
 								</div>
 							</div>
-						</li>
-						<li>
+						</div>
+						<div>
 							<div class="bxslider-box">
 								<div class="bxslider-body">
 									<div class="bxslider-image">
@@ -228,25 +230,6 @@
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-					<div class="bxslider-page">
-						<div class="container">
-							<div class="page-list">
-								<div class="bx-pager">
-									<ul>
-										<li>
-											<a data-slide-index="0" href=""></a>
-										</li>
-										<li>
-											<a data-slide-index="1" href=""></a>
-										</li>
-										<li>
-											<a data-slide-index="2" href=""></a>
-										</li>
-									</ul>
 								</div>
 							</div>
 						</div>
@@ -894,32 +877,16 @@
 		</footer>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script>
-		function toggler() {
-			$('[data-toggler]').on('click', function(e) {
-				e.preventDefault();
-				var $this = $(this);
-				var hash = $this.attr('href') || $this.data('target');
-				if (!hash) return false;
-				$this.toggleClass('is-active');
-				$(hash).toggleClass('is-show');
-			})
-		}
-
-		toggler();
-	</script>
-	<script>
-		$(document).ready(function(){
-  			$('.bxslider').bxSlider({
-			  mode: 'vertical'
+		$(document).ready(function() {
+			$('.slider-dox').slick({
+				arrows: false,
+				dots: true,
+				vertical: true
 			});
 		});
 	</script>
-	<script>
-		var slider = $('.bxslider').bxSlider({
-    		pagerCustom: '.bx-pager'
-		});
-	</script>
 </body>
+
 </html>

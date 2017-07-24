@@ -37,6 +37,13 @@ img {
     margin-right: auto;
 }
 
+h1{
+	margin: 0 0 25px;
+	font-size: 52px;
+	color: #ff5912;
+	text-transform: uppercase;
+}
+
 h2{
     margin: 0 0 18px;
     font-size: 36px;
@@ -48,6 +55,10 @@ p{
     margin: 0 0 15px;
     font-size: 16px;
     color: #495662;
+}
+
+.contact-box p{
+  font-size: 12px;
 }
 
 .contact-icon{
@@ -447,5 +458,5 @@ a.product-more:hover{
         flex-wrap: wrap;
     }
 
-    
+
 }

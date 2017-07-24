@@ -1,0 +1,28 @@
+.number{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.number span{
+  cursor: pointer;
+}
+
+.number .plus,
+.number .minus{
+  color: #34404b;
+  font-size: 18px;
+}
+
+.number input{
+  height: 15px;
+  width: 25px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  color: #ff5912;
+}

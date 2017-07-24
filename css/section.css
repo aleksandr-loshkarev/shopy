@@ -3,7 +3,7 @@
 }
 
 .header-decor{
-	border-bottom: 1px solid #e6e8eb;	
+	border-bottom: 1px solid #e6e8eb;
 }
 
 .section-body {
@@ -144,6 +144,15 @@
 
 .section-article{
 	max-width: 74.358974%;
+}
+
+.section-light{
+	background-color: #fff;
+}
+
+.section-product-info{
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 1024px){
