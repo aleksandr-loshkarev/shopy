@@ -163,3 +163,85 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.bxslider-image{
+}
+
+.bxslider-image img{
+    -webkit-background-size: cover;
+    background-size: cover;
+    width:100%;
+}
+
+.bxslider-body{
+    position: relative;
+}
+
+.bxslider-section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.bxslider-info{
+     margin-left: 99px;
+     display: -webkit-flex;
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     min-height: 650px;
+}
+
+.bxslider-block{
+     margin-bottom: 60px;
+}
+
+.bxslider-title h1{
+    margin: 0 0 25px;
+    font-size: 52px;
+    color: #ff5912;
+    text-transform: uppercase;
+}
+
+.bxslider-description p {
+    font-size: 18px;
+    color: #3c4751;
+    font-weight: 600;
+}
+
+.bxslider-price-cart{
+     display: -webkit-flex;
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: flex;
+}
+
+.bxslider-price p{
+     margin-right: 30px;
+     font-size: 18px;
+     color: #34404b;
+}
+
+.bxslider-card-order a{
+     display: inline-block;
+     vertical-align:top;
+     text-decoration: none;
+     font-size: 18px;
+     color: #ff5912;
+}
+
+.bxslider-card-order a:hover{
+     color: #802d09;
+}
+
+.bxslider-card-order .icon-pannier.icon-bar-cart:before{
+     content: '';
+     width: 0;
+     height: 0;
+}
